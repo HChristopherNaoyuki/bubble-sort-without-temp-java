@@ -6,10 +6,8 @@ public class BubbleSort
 {
     public static void main(String[] args)
     {
-        Scanner scanner = new Scanner(System.in);
-        
         try
-        {
+        (Scanner scanner = new Scanner(System.in)) {
             System.out.println("Enter the number of elements:");
             int n = scanner.nextInt();
             int[] arr = new int[n];
@@ -47,10 +45,6 @@ public class BubbleSort
         catch (Exception e)
         {
             System.out.println("Invalid input. Please enter valid numbers.");
-        }
-        finally
-        {
-            scanner.close();
         }
     }
     
