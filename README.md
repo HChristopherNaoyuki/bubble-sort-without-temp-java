@@ -20,7 +20,7 @@ Sort in ascending or descending order? (A/D):
 a
 Sorted array:
 1 1 3 4 5
-Steps taken: 10
+Steps taken: 9
 ```
 
 ---
